@@ -1,14 +1,16 @@
-# TUTORIAL: Text Classification with TF-IDF
+# TUTORIAL: Text Classification with `TF-IDF`
 
-This tutorial provides a guide on utilizing TF-IDF (Term Frequency-Inverse Document Frequency) for the classification of textual data.
+This tutorial provides a guide on utilizing `TF-IDF` for the classification of textual data.
 
 **Implementation**: [resume_classification_tfidf.ipynb](https://github.com/jiayao99/tfidf-text-classification/blob/main/resume_classification_tfidf.ipynb)
 
-## What is \*TF-IDF\*?
+Author: Jiayao Li
 
-TF-IDF stands for Term Frequency-Inverse Document Frequency.
+## What is `TF-IDF`?
 
-It measures **importance of a word in a document, which is part of a corpus**.
+`TF-IDF` stands for `Term Frequency - Inverse Document Frequency`.
+
+**It measures IMPORTANCE of a word in a document, which is part of a corpus.**
 
 Despite its simplicity and lower computational footprint as compared to sophisticated pretrained word embedding models (such as BERT, Word2Vec, etc.), TF-IDF can often yield surprisingly effective results in various classification tasks.
 
@@ -33,4 +35,4 @@ $TF-IDF(t, d, D) = TF(t, d) \times IDF(t, D)$
 
 where $t$ represents the term or word, $d$ is a document in the corpus, and $D$ is the entire corpus of documents.
 
-*\*Note that TF-IDF is a **SPARSE EMBEDDING**: there are a lot of 0s in the vector.*
+*\*Note that TF-IDF is a `SPARSE EMBEDDING`: there are a lot of 0s in the vector.*
